@@ -47,4 +47,5 @@ export const store$ = observable<Store>({
     console.log("Updated tasks array:", store$.tasks.get());
   },
   // edit, plAY, PAUSE, STOP, DELETE
+  // Add these features
 });
