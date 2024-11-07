@@ -12,7 +12,7 @@ import {
 interface Props {
   onTimeSelected: (time: string) => void;
 }
-
+// To push in github
 const TimePicker: React.FC<Props> = ({ onTimeSelected }) => {
   // State to hold the selected hour and minute
   const [hour, setHour] = useState("");
